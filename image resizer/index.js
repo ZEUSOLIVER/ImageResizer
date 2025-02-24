@@ -315,6 +315,20 @@ function image_to_bin(image) {
     return codeout
 }
 
+function binToImage(binCode, width, height) {
+    let image = new cv.Mat(height, width, cv.CV_8UC3);
+    for(let y = 0; y < height; y++) {
+        for(let x = 0; x < width; x++) {
+            let colorCode = binCode.substr((y * width + x) * 2, 2);
+            let color = pcDosPalette[colorCode] || [0, 0, 0];
+            image.ucharPtr(y, x)[0] = color[0];
+            image.ucharPtr(y, x)[1] = color[1];
+            image.ucharPtr(y, x)[2] = color[2];
+        }
+    }
+    return image;
+}
+
 imgElement.onload = function() {
     let intwidthImage = parseInt(widthImage.value, 10);
     let intheightImage = parseInt(heightImage.value, 10);
@@ -324,6 +338,8 @@ imgElement.onload = function() {
     cv.resize(uploadedImage, resizedImage, newSize, cv.INTER_NEAREST);
     cv.imshow(canvas, resizedImage);
     codeoutput.value = image_to_bin(resizedImage)
+    let reconstructedImage = binToImage(codeoutput.value, intwidthImage, intheightImage);
+    cv.imshow(canvas2, reconstructedImage);
     uploadedImage.delete();
     resizedImage.delete();
 };
