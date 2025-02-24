@@ -3,6 +3,7 @@ let widthImage = document.getElementById('widthImage');
 let heightImage = document.getElementById('heightImage');
 let codeoutput = document.getElementById('codeoutput')
 let canvas = document.getElementById('canvas');
+let canvas2 = document.getElementById('canvas');
 let inputElement = document.getElementById('fileInput');
 inputElement.addEventListener('change', (e) => {
     imgElement.src = URL.createObjectURL(e.target.files[0]);
