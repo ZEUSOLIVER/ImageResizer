@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +11,12 @@
         <input type="file" id="fileInput"></input>
         
         <div class="range-container">
-            <label for="widthImage">Largura:</label>
+            <label for="widthImage">Width:</label>
             <input type="range" id="widthImage" min="0" max="256" value="128"></input>
             <span id="widthValue">128</span>
         </div>
         <div class="range-container">
-            <label for="heightImage">Altura:</label>
+            <label for="heightImage">Height:</label>
             <input type="range" id="heightImage" min="0" max="256" value="128"></input>
             <span id="heightValue">128</span>
         </div>
@@ -24,9 +24,9 @@
     </div>
     <div>
         <textarea readonly name="CodeOutput" id="codeoutput"></textarea>
-        <p>Imagem Original</p>
+        <p>Original Image</p>
         <canvas id="canvas"></canvas>
-        <p>Imagem dentro do MS DOS</p>
+        <p>Image Inside MS DOS</p>
         <canvas id="canvas2"></canvas>
     </div>
     <script src="index.js"></script>
