@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
 img#CRTMonitor{
     background-size: cover;
     position: absolute;
