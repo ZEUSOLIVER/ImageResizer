@@ -19,6 +19,14 @@ p#msdostext{
     transform: translate(+5%, -400%);
     transform-origin: center;
 }
+img#cutegif {
+    position: absolute;
+    top: 78vh;
+    left: 90vw;
+    height: 220px;
+    transform: translate(-33%, -15%);
+    transform-origin: center;
+}
 img#CRTMonitor{
     background-size: cover;
     position: absolute;
