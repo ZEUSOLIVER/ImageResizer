@@ -20,17 +20,18 @@
             <input type="range" id="heightImage" min="0" max="256" value="128"></input>
             <span id="heightValue">128</span>
         </div>
+        <audio src="templeos.ogg" controls loop preload="metadata"></audio>
         <img id="imageSrc" style="display: none;">
     </div>
     <div class="container">
         <p>Original Image</p>
         <canvas id="canvas"></canvas>
-        <p>Image In MSDOS</p>
-        <img id="CRTMonitor"src="crtmonitor.png">
+        <p id="msdostext">Image in MSDOS</p>
+        <img id="CRTMonitor" src="crtmonitor.png">
+        <br>
         <canvas id="canvas2"></canvas>
-        <textarea readonly name="CodeOutput" id="codeoutput"></textarea>
+        <textarea spellcheck="false" readonly name="CodeOutput" id="codeoutput"></textarea>
     </div>
-    <iframe src="https://open.spotify.com/embed/track/1X6urkNWnYNU8hzLJzQJSw?utm_source=generator" allowfullscreen frameborder="0"></iframe>
     <script src="index.js"></script>
     <script src="opencv.js"></script>
 </body>
