@@ -1,2 +1,0 @@
-# ImageResizer
-Image resizer?
