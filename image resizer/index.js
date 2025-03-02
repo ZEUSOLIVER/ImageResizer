@@ -122,24 +122,24 @@ document.getElementById("resetpalette").onclick = function(){
 
 function updatePalette() {
     pcDosPalette = {
-        "00": (pal0==true)?[0, 0, 0]:[5, 5, 5],       // Preto
-        "01": (pal1==true)?[0, 0, 170]:[5, 5, 5],     // Azul
-        "02": (pal2==true)?[0, 170, 0]:[5, 5, 5],     // Verde
-        "03": (pal3==true)?[0, 170, 170]:[5, 5, 5],     // Azul cobalto
-        "04": (pal4==true)?[170, 0, 0]:[5, 5, 5],     // Vermelho
-        "05": (pal5==true)?[170, 0, 170]:[5, 5, 5], // Violeta
-        "06": (pal6==true)?[170, 85, 0]:[5, 5, 5], // Marrom
-        "07": (pal7==true)?[170, 170, 170]:[5, 5, 5], // Cinza claro
-        "08": (pal8==true)?[85, 85, 85]:[5, 5, 5], // Cinza escuro
-        "09": (pal9==true)?[85, 85, 255]:[5, 5, 5], // Azul claro
-        "0A": (palA==true)?[85, 255, 85]:[5, 5, 5], // Verde claro
-        "0B": (palB==true)?[85, 255, 255]:[5, 5, 5], // Azul céu
-        "0C": (palC==true)?[255, 85, 85]:[5, 5, 5], // Red claro
-        "0D": (palD==true)?[255, 85, 255]:[5, 5, 5], // Violeta claro
-        "0E": (palE==true)?[255, 255, 85]:[5, 5, 5], // Amarelo
-        "0F": (palF==true)?[255, 255, 255]:[5, 5, 5], // Branco
+        "00": (pal0==true)?[0, 0, 0]:[5, 5, 5],       // Black
+        "01": (pal1==true)?[0, 0, 170]:[5, 5, 5],     // Blue
+        "02": (pal2==true)?[0, 170, 0]:[5, 5, 5],     // Green
+        "03": (pal3==true)?[0, 170, 170]:[5, 5, 5],     // Cobalt blue
+        "04": (pal4==true)?[170, 0, 0]:[5, 5, 5],     // Red
+        "05": (pal5==true)?[170, 0, 170]:[5, 5, 5], // Violet
+        "06": (pal6==true)?[170, 85, 0]:[5, 5, 5], // Brown
+        "07": (pal7==true)?[170, 170, 170]:[5, 5, 5], // Light grey
+        "08": (pal8==true)?[85, 85, 85]:[5, 5, 5], // Dark gray
+        "09": (pal9==true)?[85, 85, 255]:[5, 5, 5], // Light blue
+        "0A": (palA==true)?[85, 255, 85]:[5, 5, 5], // Light green
+        "0B": (palB==true)?[85, 255, 255]:[5, 5, 5], // Sky blue
+        "0C": (palC==true)?[255, 85, 85]:[5, 5, 5], // Light red
+        "0D": (palD==true)?[255, 85, 255]:[5, 5, 5], // Light violet
+        "0E": (palE==true)?[255, 255, 85]:[5, 5, 5], // Yellow
+        "0F": (palF==true)?[255, 255, 255]:[5, 5, 5], // White
 
-        //Adicionais tons de cinza
+        //Additional shades of gray
 
         "10": (pal10==true)?[0, 0, 0]:[5, 5, 5], 
         "11": (pal11==true)?[16, 16, 16]:[5, 5, 5], 
@@ -158,7 +158,7 @@ function updatePalette() {
         "1E": (pal1EX==true)?[239, 239, 239]:[5, 5, 5], 
         "1F": (pal1F==true)?[255, 255, 255]:[5, 5, 5], //
     
-    //Adicionais de tons
+    //Additional tones
         "20": (pal20==true)?[0, 0, 255]:[5, 5, 5],
         "21": (pal21==true)?[65, 0, 255]:[5, 5, 5],
         "22": (pal22==true)?[130, 0, 255]:[5, 5, 5],
@@ -232,7 +232,7 @@ function updatePalette() {
         "66": [186, 223, 255],
         "67": [186, 202, 255], //
     
-        //Adicionais tons de cores escuras
+        //Additional dark color tones
         "68": [0, 0, 113],
         "69": [28, 0, 113],
         "6A": [57, 0, 113],
