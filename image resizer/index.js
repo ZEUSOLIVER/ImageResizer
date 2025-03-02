@@ -48,6 +48,86 @@ let pal2C = true;
 let pal2D = true;
 let pal2EX = true;
 let pal2F = true;
+let pal30 = true;
+let pal31 = true;
+let pal32 = true;
+let pal33 = true;
+let pal34 = true;
+let pal35 = true;
+let pal36 = true;
+let pal37 = true;
+let pal38 = true;
+let pal39 = true;
+let pal3A = true;
+let pal3B = true;
+let pal3C = true;
+let pal3D = true;
+let pal3EX = true;
+let pal3F = true;
+let pal40 = true;
+let pal41 = true;
+let pal42 = true;
+let pal43 = true;
+let pal44 = true;
+let pal45 = true;
+let pal46 = true;
+let pal47 = true;
+let pal48 = true;
+let pal49 = true;
+let pal4A = true;
+let pal4B = true;
+let pal4C = true;
+let pal4D = true;
+let pal4EX = true;
+let pal4F = true;
+let pal50 = true;
+let pal51 = true;
+let pal52 = true;
+let pal53 = true;
+let pal54 = true;
+let pal55 = true;
+let pal56 = true;
+let pal57 = true;
+let pal58 = true;
+let pal59 = true;
+let pal5A = true;
+let pal5B = true;
+let pal5C = true;
+let pal5D = true;
+let pal5EX = true;
+let pal5F = true;
+let pal60 = true;
+let pal61 = true;
+let pal62 = true;
+let pal63 = true;
+let pal64 = true;
+let pal65 = true;
+let pal66 = true;
+let pal67 = true;
+let pal68 = true;
+let pal69 = true;
+let pal6A = true;
+let pal6B = true;
+let pal6C = true;
+let pal6D = true;
+let pal6EX = true;
+let pal6F = true;
+let pal70 = true;
+let pal71 = true;
+let pal72 = true;
+let pal73 = true;
+let pal74 = true;
+let pal75 = true;
+let pal76 = true;
+let pal77 = true;
+let pal78 = true;
+let pal79 = true;
+let pal7A = true;
+let pal7B = true;
+let pal7C = true;
+let pal7D = true;
+let pal7EX = true;
+let pal7F = true;
 let pal0E = document.getElementById("pal0")
 let pal1E = document.getElementById("pal1")
 let pal2E = document.getElementById("pal2")
@@ -96,6 +176,86 @@ let pal2CE = document.getElementById("pal2C")
 let pal2DE = document.getElementById("pal2D")
 let pal2EE = document.getElementById("pal2E")
 let pal2FE = document.getElementById("pal2F")
+let pal30E = document.getElementById("pal30")
+let pal31E = document.getElementById("pal31")
+let pal32E = document.getElementById("pal32")
+let pal33E = document.getElementById("pal33")
+let pal34E = document.getElementById("pal34")
+let pal35E = document.getElementById("pal35")
+let pal36E = document.getElementById("pal36")
+let pal37E = document.getElementById("pal37")
+let pal38E = document.getElementById("pal38")
+let pal39E = document.getElementById("pal39")
+let pal3AE = document.getElementById("pal3A")
+let pal3BE = document.getElementById("pal3B")
+let pal3CE = document.getElementById("pal3C")
+let pal3DE = document.getElementById("pal3D")
+let pal3EE = document.getElementById("pal3E")
+let pal3FE = document.getElementById("pal3F")
+let pal40E = document.getElementById("pal40")
+let pal41E = document.getElementById("pal41")
+let pal42E = document.getElementById("pal42")
+let pal43E = document.getElementById("pal43")
+let pal44E = document.getElementById("pal44")
+let pal45E = document.getElementById("pal45")
+let pal46E = document.getElementById("pal46")
+let pal47E = document.getElementById("pal47")
+let pal48E = document.getElementById("pal48")
+let pal49E = document.getElementById("pal49")
+let pal4AE = document.getElementById("pal4A")
+let pal4BE = document.getElementById("pal4B")
+let pal4CE = document.getElementById("pal4C")
+let pal4DE = document.getElementById("pal4D")
+let pal4EE = document.getElementById("pal4E")
+let pal4FE = document.getElementById("pal4F")
+let pal50E = document.getElementById("pal50")
+let pal51E = document.getElementById("pal51")
+let pal52E = document.getElementById("pal52")
+let pal53E = document.getElementById("pal53")
+let pal54E = document.getElementById("pal54")
+let pal55E = document.getElementById("pal55")
+let pal56E = document.getElementById("pal56")
+let pal57E = document.getElementById("pal57")
+let pal58E = document.getElementById("pal58")
+let pal59E = document.getElementById("pal59")
+let pal5AE = document.getElementById("pal5A")
+let pal5BE = document.getElementById("pal5B")
+let pal5CE = document.getElementById("pal5C")
+let pal5DE = document.getElementById("pal5D")
+let pal5EE = document.getElementById("pal5E")
+let pal5FE = document.getElementById("pal5F")
+let pal60E = document.getElementById("pal60")
+let pal61E = document.getElementById("pal61")
+let pal62E = document.getElementById("pal62")
+let pal63E = document.getElementById("pal63")
+let pal64E = document.getElementById("pal64")
+let pal65E = document.getElementById("pal65")
+let pal66E = document.getElementById("pal66")
+let pal67E = document.getElementById("pal67")
+let pal68E = document.getElementById("pal68")
+let pal69E = document.getElementById("pal69")
+let pal6AE = document.getElementById("pal6A")
+let pal6BE = document.getElementById("pal6B")
+let pal6CE = document.getElementById("pal6C")
+let pal6DE = document.getElementById("pal6D")
+let pal6EE = document.getElementById("pal6E")
+let pal6FE = document.getElementById("pal6F")
+let pal70E = document.getElementById("pal70")
+let pal71E = document.getElementById("pal71")
+let pal72E = document.getElementById("pal72")
+let pal73E = document.getElementById("pal73")
+let pal74E = document.getElementById("pal74")
+let pal75E = document.getElementById("pal75")
+let pal76E = document.getElementById("pal76")
+let pal77E = document.getElementById("pal77")
+let pal78E = document.getElementById("pal78")
+let pal79E = document.getElementById("pal79")
+let pal7AE = document.getElementById("pal7A")
+let pal7BE = document.getElementById("pal7B")
+let pal7CE = document.getElementById("pal7C")
+let pal7DE = document.getElementById("pal7D")
+let pal7EE = document.getElementById("pal7E")
+let pal7FE = document.getElementById("pal7F")
 let imgElement = document.getElementById('imageSrc');
 let widthImage = document.getElementById('widthImage');
 let heightImage = document.getElementById('heightImage');
@@ -119,7 +279,6 @@ document.getElementById("resetpalette").onclick = function(){
     updatePalette();
     StartOpen();
 }
-
 function updatePalette() {
     pcDosPalette = {
         "00": (pal0==true)?[0, 0, 0]:[5, 5, 5],       // Black
@@ -156,7 +315,7 @@ function updatePalette() {
         "1C": (pal1C==true)?[202, 202, 202]:[5, 5, 5], 
         "1D": (pal1D==true)?[223, 223, 223]:[5, 5, 5], 
         "1E": (pal1EX==true)?[239, 239, 239]:[5, 5, 5], 
-        "1F": (pal1F==true)?[255, 255, 255]:[5, 5, 5], //
+        "1F": (pal1F==true)?[255, 255, 255]:[5, 5, 5],
     
     //Additional tones
         "20": (pal20==true)?[0, 0, 255]:[5, 5, 5],
@@ -175,89 +334,89 @@ function updatePalette() {
         "2D": (pal2D==true)?[190, 255, 0]:[5, 5, 5],
         "2E": (pal2E==true)?[230, 255, 0]:[5, 5, 5],
         "2F": (pal2F==true)?[65, 255, 0]:[5, 5, 5],
-        /*"30": [0, 255, 0],
-        "31": [0, 255, 65],
-        "32": [0, 255, 130],
-        "33": [0, 255, 190],
-        "34": [0, 255, 255],
-        "35": [0, 190, 255],
-        "36": [0, 130, 255],
-        "37": [0, 65, 255],
-        "38": [130, 130, 255],
-        "39": [158, 130, 255],
-        "3A": [190, 130, 255],
-        "3B": [223, 130, 255],
-        "3C": [255, 130, 255],
-        "3D": [255, 130, 223],
-        "3E": [255, 130, 190],
-        "3F": [255, 130, 158],
-        "40": [255, 130, 130],
-        "41": [255, 158, 130],
-        "42": [255, 190, 130],
-        "43": [255, 223, 130],
-        "44": [255, 225, 130],
-        "45": [253, 255, 130],
-        "46": [190, 255, 130],
-        "47": [158, 255, 130],
-        "48": [130, 255, 130],
-        "49": [130, 255, 158],
-        "4A": [130, 255, 190],
-        "4B": [130, 255, 223],
-        "4C": [130, 255, 225],
-        "4D": [130, 223, 225],
-        "4E": [130, 190, 225],
-        "4F": [130, 158, 225],
-        "50": [186, 186, 255],
-        "51": [202, 186, 255],
-        "52": [223, 186, 255],
-        "53": [239, 186, 255],
-        "54": [255, 186, 255],
-        "55": [255, 186, 239],
-        "56": [255, 186, 223],
-        "57": [255, 186, 202],
-        "58": [255, 186, 186],
-        "59": [255, 202, 186],
-        "5A": [255, 223, 186],
-        "5B": [255, 239, 186],
-        "5C": [255, 255, 186],
-        "5D": [239, 255, 186],
-        "5E": [223, 255, 186],
-        "5F": [202, 255, 186],
-        "60": [186, 255, 186],
-        "61": [186, 255, 202],
-        "62": [186, 255, 223],
-        "63": [186, 255, 239],
-        "64": [186, 255, 255],
-        "65": [186, 239, 255],
-        "66": [186, 223, 255],
-        "67": [186, 202, 255], //
+        "30": (pal30==true)?[0, 255, 0]:[5, 5, 5],
+        "31": (pal31==true)?[0, 255, 65]:[5, 5, 5],
+        "32": (pal32==true)?[0, 255, 130]:[5, 5, 5],
+        "33": (pal33==true)?[0, 255, 190]:[5, 5, 5],
+        "34": (pal34==true)?[0, 255, 255]:[5, 5, 5],
+        "35": (pal35==true)?[0, 190, 255]:[5, 5, 5],
+        "36": (pal36==true)?[0, 130, 255]:[5, 5, 5],
+        "37": (pal37==true)?[0, 65, 255]:[5, 5, 5],
+        "38": (pal38==true)?[130, 130, 255]:[5, 5, 5],
+        "39": (pal39==true)?[158, 130, 255]:[5, 5, 5],
+        "3A": (pal3A==true)?[190, 130, 255]:[5, 5, 5],
+        "3B": (pal3B==true)?[223, 130, 255]:[5, 5, 5],
+        "3C": (pal3C==true)?[255, 130, 255]:[5, 5, 5],
+        "3D": (pal3D==true)?[255, 130, 223]:[5, 5, 5],
+        "3E": (pal3EX==true)?[255, 130, 190]:[5, 5, 5],
+        "3F": (pal3F==true)?[255, 130, 158]:[5, 5, 5],
+        "40": (pal40==true)?[255, 130, 130]:[5, 5, 5],
+        "41": (pal41==true)?[255, 158, 130]:[5, 5, 5],
+        "42": (pal42==true)?[255, 190, 130]:[5, 5, 5],
+        "43": (pal43==true)?[255, 223, 130]:[5, 5, 5],
+        "44": (pal44==true)?[255, 225, 130]:[5, 5, 5],
+        "45": (pal45==true)?[253, 255, 130]:[5, 5, 5],
+        "46": (pal46==true)?[190, 255, 130]:[5, 5, 5],
+        "47": (pal47==true)?[158, 255, 130]:[5, 5, 5],
+        "48": (pal48==true)?[130, 255, 130]:[5, 5, 5],
+        "49": (pal49==true)?[130, 255, 158]:[5, 5, 5],
+        "4A": (pal4A==true)?[130, 255, 190]:[5, 5, 5],
+        "4B": (pal4B==true)?[130, 255, 223]:[5, 5, 5],
+        "4C": (pal4C==true)?[130, 255, 225]:[5, 5, 5],
+        "4D": (pal4D==true)?[130, 223, 225]:[5, 5, 5],
+        "4E": (pal4E==true)?[130, 190, 225]:[5, 5, 5],
+        "4F": (pal4F==true)?[130, 158, 225]:[5, 5, 5],
+        "50": (pal50==true)?[186, 186, 255]:[5, 5, 5],
+        "51": (pal51==true)?[202, 186, 255]:[5, 5, 5],
+        "52": (pal52==true)?[223, 186, 255]:[5, 5, 5],
+        "53": (pal53==true)?[239, 186, 255]:[5, 5, 5],
+        "54": (pal54==true)?[255, 186, 255]:[5, 5, 5],
+        "55": (pal55==true)?[255, 186, 239]:[5, 5, 5],
+        "56": (pal56==true)?[255, 186, 223]:[5, 5, 5],
+        "57": (pal57==true)?[255, 186, 202]:[5, 5, 5],
+        "58": (pal58==true)?[255, 186, 186]:[5, 5, 5],
+        "59": (pal59==true)?[255, 202, 186]:[5, 5, 5],
+        "5A": (pal5A==true)?[255, 223, 186]:[5, 5, 5],
+        "5B": (pal5B==true)?[255, 239, 186]:[5, 5, 5],
+        "5C": (pal5C==true)?[255, 255, 186]:[5, 5, 5],
+        "5D": (pal5D==true)?[239, 255, 186]:[5, 5, 5],
+        "5E": (pal5E==true)?[223, 255, 186]:[5, 5, 5],
+        "5F": (pal5F==true)?[202, 255, 186]:[5, 5, 5],
+        "60": (pal60==true)?[186, 255, 186]:[5, 5, 5],
+        "61": (pal61==true)?[186, 255, 202]:[5, 5, 5],
+        "62": (pal62==true)?[186, 255, 223]:[5, 5, 5],
+        "63": (pal63==true)?[186, 255, 239]:[5, 5, 5],
+        "64": (pal64==true)?[186, 255, 255]:[5, 5, 5],
+        "65": (pal65==true)?[186, 239, 255]:[5, 5, 5],
+        "66": (pal66==true)?[186, 223, 255]:[5, 5, 5],
+        "67": (pal67==true)?[186, 202, 255]:[5, 5, 5], //
     
-        //Additional dark color tones
-        "68": [0, 0, 113],
-        "69": [28, 0, 113],
-        "6A": [57, 0, 113],
-        "6B": [85, 0, 113],
-        "6C": [113, 0, 113],
-        "6D": [113, 0, 85],
-        "6E": [113, 0, 57],
-        "6F": [113, 0, 28],
-        "70": [113, 0, 0],
-        "71": [113, 28, 0],
-        "72": [113, 57, 0],
-        "73": [113, 85, 0],
-        "74": [113, 113, 0],
-        "75": [85, 113, 0],
-        "76": [57, 113, 0],
-        "77": [28, 113, 0],
-        "78": [0, 113, 0],
-        "79": [0, 113, 28],
-        "7A": [0, 113, 57],
-        "7B": [0, 113, 85],
-        "7C": [0, 113, 113],
-        "7D": [0, 85, 113],
-        "7E": [0, 57, 113],
-        "7F": [0, 28, 113],
-        "80": [57, 57, 113],
+        //Adicionais tons de cores escuras
+        "68": (pal68==true)?[0, 0, 113]:[5, 5, 5],
+        "69": (pal69==true)?[28, 0, 113]:[5, 5, 5],
+        "6A": (pal6A==true)?[57, 0, 113]:[5, 5, 5],
+        "6B": (pal6B==true)?[85, 0, 113]:[5, 5, 5],
+        "6C": (pal6C==true)?[113, 0, 113]:[5, 5, 5],
+        "6D": (pal6D==true)?[113, 0, 85]:[5, 5, 5],
+        "6E": (pal6E==true)?[113, 0, 57]:[5, 5, 5],
+        "6F": (pal6F==true)?[113, 0, 28]:[5, 5, 5],
+        "70": (pal70==true)?[113, 0, 0]:[5, 5, 5],
+        "71": (pal71==true)?[113, 28, 0]:[5, 5, 5],
+        "72": (pal72==true)?[113, 57, 0]:[5, 5, 5],
+        "73": (pal73==true)?[113, 85, 0]:[5, 5, 5],
+        "74": (pal74==true)?[113, 113, 0]:[5, 5, 5],
+        "75": (pal75==true)?[85, 113, 0]:[5, 5, 5],
+        "76": (pal76==true)?[57, 113, 0]:[5, 5, 5],
+        "77": (pal77==true)?[28, 113, 0]:[5, 5, 5],
+        "78": (pal78==true)?[0, 113, 0]:[5, 5, 5],
+        "79": (pal79==true)?[0, 113, 28]:[5, 5, 5],
+        "7A": (pal7A==true)?[0, 113, 57]:[5, 5, 5],
+        "7B": (pal7B==true)?[0, 113, 85]:[5, 5, 5],
+        "7C": (pal7C==true)?[0, 113, 113]:[5, 5, 5],
+        "7D": (pal7D==true)?[0, 85, 113]:[5, 5, 5],
+        "7E": (pal7E==true)?[0, 57, 113]:[5, 5, 5],
+        "7F": (pal7F==true)?[0, 28, 113]:[5, 5, 5],
+        /*"80": [57, 57, 113],
         "81": [69, 57, 113],
         "82": [85, 57, 113],
         "83": [97, 57, 113],
@@ -818,6 +977,726 @@ pal2FE.onclick = function() {
     } else {
         pal2FE.style = colordisable;
         pal2F = false;
+    }
+}
+pal30E.onclick = function() {
+    if (pal30 == false){
+        pal30E.style = "fill:#00FF00"
+        pal30 = true;
+    } else {
+        pal30E.style = colordisable;
+        pal30 = false;
+    }
+}
+pal31E.onclick = function() {
+    if (pal31 == false){
+        pal31E.style = "fill:#00FF41";
+        pal31 = true;
+    } else {
+        pal31E.style = colordisable;
+        pal31 = false;
+    }
+}
+pal32E.onclick = function() {
+    if (pal32 == false){
+        pal32E.style = "fill:#00FF82";
+        pal32 = true;
+    } else {
+        pal32E.style = colordisable;
+        pal32 = false;
+    }
+}
+pal33E.onclick = function() {
+    if (pal33 == false){
+        pal33E.style = "fill:#00FFBE";
+        pal33 = true;
+    } else {
+        pal33E.style = colordisable;
+        pal33 = false;
+    }
+}
+pal34E.onclick = function() {
+    if (pal34 == false){
+        pal34E.style = "fill:#00FFFF";
+        pal34 = true;
+    } else {
+        pal34E.style = colordisable;
+        pal34 = false;
+    }
+}
+pal35E.onclick = function() {
+    if (pal35 == false){
+        pal35E.style = "fill:#00BEFF";
+        pal35 = true;
+    } else {
+        pal35E.style = colordisable;
+        pal35 = false;
+    }
+}
+pal36E.onclick = function() {
+    if (pal36 == false){
+        pal36E.style = "fill:#0082FF";
+        pal36 = true;
+    } else {
+        pal36E.style = colordisable;
+        pal36 = false;
+    }
+}
+pal37E.onclick = function() {
+    if (pal37 == false){
+        pal37E.style = "fill:#0041FF";
+        pal37 = true;
+    } else {
+        pal37E.style = colordisable;
+        pal37 = false;
+    }
+}
+pal38E.onclick = function() {
+    if (pal38 == false){
+        pal38E.style = "fill:#8282FF";
+        pal38 = true;
+    } else {
+        pal38E.style = colordisable;
+        pal38 = false;
+    }
+}
+pal39E.onclick = function() {
+    if (pal39 == false){
+        pal39E.style = "fill:#9E82FF";
+        pal39 = true;
+    } else {
+        pal39E.style = colordisable;
+        pal39 = false;
+    }
+}
+pal3AE.onclick = function() {
+    if (pal3A == false){
+        pal3AE.style = "fill:#BE82FF";
+        pal3A = true;
+    } else {
+        pal3AE.style = colordisable;
+        pal3A = false;
+    }
+}
+pal3BE.onclick = function() {
+    if (pal3B == false){
+        pal3BE.style = "fill:#DF82FF";
+        pal3B = true;
+    } else {
+        pal3BE.style = colordisable;
+        pal3B = false;
+    }
+}
+pal3CE.onclick = function() {
+    if (pal3C == false){
+        pal3CE.style = "fill:#FF82FF";
+        pal3C = true;
+    } else {
+        pal3CE.style = colordisable;
+        pal3C = false;
+    }
+}
+pal3DE.onclick = function() {
+    if (pal3D == false){
+        pal3DE.style = "fill:#FF82DF";
+        pal3D = true;
+    } else {
+        pal3DE.style = colordisable;
+        pal3D = false;
+    }
+}
+pal3EE.onclick = function() {
+    if (pal3EX == false){
+        pal3EE.style = "fill:#FF82BE";
+        pal3EX = true;
+    } else {
+        pal3EE.style = colordisable;
+        pal3EX = false;
+    }
+}
+pal3FE.onclick = function() {
+    if (pal3F == false){
+        pal3FE.style = "fill:#FF829E";
+        pal3F = true;
+    } else {
+        pal3FE.style = colordisable;
+        pal3F = false;
+    }
+}
+pal40E.onclick = function() {
+    if (pal40 == false){
+        pal40E.style = "fill:#FF8282"
+        pal40 = true;
+    } else {
+        pal40E.style = colordisable;
+        pal40 = false;
+    }
+}
+pal41E.onclick = function() {
+    if (pal41 == false){
+        pal41E.style = "fill:#FF9E82";
+        pal41 = true;
+    } else {
+        pal41E.style = colordisable;
+        pal41 = false;
+    }
+}
+pal42E.onclick = function() {
+    if (pal42 == false){
+        pal42E.style = "fill:#FFBE82";
+        pal42 = true;
+    } else {
+        pal42E.style = colordisable;
+        pal42 = false;
+    }
+}
+pal43E.onclick = function() {
+    if (pal43 == false){
+        pal43E.style = "fill:#FFDF82";
+        pal43 = true;
+    } else {
+        pal43E.style = colordisable;
+        pal43 = false;
+    }
+}
+pal44E.onclick = function() {
+    if (pal44 == false){
+        pal44E.style = "fill:#FFFF82";
+        pal44 = true;
+    } else {
+        pal44E.style = colordisable;
+        pal44 = false;
+    }
+}
+pal45E.onclick = function() {
+    if (pal45 == false){
+        pal45E.style = "fill:#DFFF82";
+        pal45 = true;
+    } else {
+        pal45E.style = colordisable;
+        pal45 = false;
+    }
+}
+pal46E.onclick = function() {
+    if (pal46 == false){
+        pal46E.style = "fill:#BEFF82";
+        pal46 = true;
+    } else {
+        pal46E.style = colordisable;
+        pal46 = false;
+    }
+}
+pal47E.onclick = function() {
+    if (pal47 == false){
+        pal47E.style = "fill:#9EFF82";
+        pal47 = true;
+    } else {
+        pal47E.style = colordisable;
+        pal47 = false;
+    }
+}
+pal48E.onclick = function() {
+    if (pal48 == false){
+        pal48E.style = "fill:#82FF82";
+        pal48 = true;
+    } else {
+        pal48E.style = colordisable;
+        pal48 = false;
+    }
+}
+pal49E.onclick = function() {
+    if (pal49 == false){
+        pal49E.style = "fill:#82FF9E";
+        pal49 = true;
+    } else {
+        pal49E.style = colordisable;
+        pal49 = false;
+    }
+}
+pal4AE.onclick = function() {
+    if (pal4A == false){
+        pal4AE.style = "fill:#82FFBE";
+        pal4A = true;
+    } else {
+        pal4AE.style = colordisable;
+        pal4A = false;
+    }
+}
+pal4BE.onclick = function() {
+    if (pal4B == false){
+        pal4BE.style = "fill:#82FFDF";
+        pal4B = true;
+    } else {
+        pal4BE.style = colordisable;
+        pal4B = false;
+    }
+}
+pal4CE.onclick = function() {
+    if (pal4C == false){
+        pal4CE.style = "fill:#82FFFF";
+        pal4C = true;
+    } else {
+        pal4CE.style = colordisable;
+        pal4C = false;
+    }
+}
+pal4DE.onclick = function() {
+    if (pal4D == false){
+        pal4DE.style = "fill:#82DFFF";
+        pal4D = true;
+    } else {
+        pal4DE.style = colordisable;
+        pal4D = false;
+    }
+}
+pal4EE.onclick = function() {
+    if (pal4EX == false){
+        pal4EE.style = "fill:#82BEFF";
+        pal4EX = true;
+    } else {
+        pal4EE.style = colordisable;
+        pal4EX = false;
+    }
+}
+pal4FE.onclick = function() {
+    if (pal4F == false){
+        pal4FE.style = "fill:#829EFF";
+        pal4F = true;
+    } else {
+        pal4FE.style = colordisable;
+        pal4F = false;
+    }
+}
+pal50E.onclick = function() {
+    if (pal50 == false){
+        pal50E.style = "fill:#BABAFF"
+        pal50 = true;
+    } else {
+        pal50E.style = colordisable;
+        pal50 = false;
+    }
+}
+pal51E.onclick = function() {
+    if (pal51 == false){
+        pal51E.style = "fill:#CABAFF";
+        pal51 = true;
+    } else {
+        pal51E.style = colordisable;
+        pal51 = false;
+    }
+}
+pal52E.onclick = function() {
+    if (pal52 == false){
+        pal52E.style = "fill:#DFBAFF";
+        pal52 = true;
+    } else {
+        pal52E.style = colordisable;
+        pal52 = false;
+    }
+}
+pal53E.onclick = function() {
+    if (pal53 == false){
+        pal53E.style = "fill:#EFBAFF";
+        pal53 = true;
+    } else {
+        pal53E.style = colordisable;
+        pal53 = false;
+    }
+}
+pal54E.onclick = function() {
+    if (pal54 == false){
+        pal54E.style = "fill:#FFBAFF";
+        pal54 = true;
+    } else {
+        pal54E.style = colordisable;
+        pal54 = false;
+    }
+}
+pal55E.onclick = function() {
+    if (pal55 == false){
+        pal55E.style = "fill:#FFBAEF";
+        pal55 = true;
+    } else {
+        pal55E.style = colordisable;
+        pal55 = false;
+    }
+}
+pal56E.onclick = function() {
+    if (pal56 == false){
+        pal56E.style = "fill:#FFBADF";
+        pal56 = true;
+    } else {
+        pal56E.style = colordisable;
+        pal56 = false;
+    }
+}
+pal57E.onclick = function() {
+    if (pal57 == false){
+        pal57E.style = "fill:#FFBACA";
+        pal57 = true;
+    } else {
+        pal57E.style = colordisable;
+        pal57 = false;
+    }
+}
+pal58E.onclick = function() {
+    if (pal58 == false){
+        pal58E.style = "fill:#FFBABA";
+        pal58 = true;
+    } else {
+        pal58E.style = colordisable;
+        pal58 = false;
+    }
+}
+pal59E.onclick = function() {
+    if (pal59 == false){
+        pal59E.style = "fill:#FFCABA";
+        pal59 = true;
+    } else {
+        pal59E.style = colordisable;
+        pal59 = false;
+    }
+}
+pal5AE.onclick = function() {
+    if (pal5A == false){
+        pal5AE.style = "fill:#FFDFBA";
+        pal5A = true;
+    } else {
+        pal5AE.style = colordisable;
+        pal5A = false;
+    }
+}
+pal5BE.onclick = function() {
+    if (pal5B == false){
+        pal5BE.style = "fill:#FFEFBA";
+        pal5B = true;
+    } else {
+        pal5BE.style = colordisable;
+        pal5B = false;
+    }
+}
+pal5CE.onclick = function() {
+    if (pal5C == false){
+        pal5CE.style = "fill:#FFFFBA";
+        pal5C = true;
+    } else {
+        pal5CE.style = colordisable;
+        pal5C = false;
+    }
+}
+pal5DE.onclick = function() {
+    if (pal5D == false){
+        pal5DE.style = "fill:#EFFFBA";
+        pal5D = true;
+    } else {
+        pal5DE.style = colordisable;
+        pal5D = false;
+    }
+}
+pal5EE.onclick = function() {
+    if (pal5EX == false){
+        pal5EE.style = "fill:#DFFFBA";
+        pal5EX = true;
+    } else {
+        pal5EE.style = colordisable;
+        pal5EX = false;
+    }
+}
+pal5FE.onclick = function() {
+    if (pal5F == false){
+        pal5FE.style = "fill:#CAFFBA";
+        pal5F = true;
+    } else {
+        pal5FE.style = colordisable;
+        pal5F = false;
+    }
+}
+pal60E.onclick = function() {
+    if (pal60 == false){
+        pal60E.style = "fill:#BAFFBA"
+        pal60 = true;
+    } else {
+        pal60E.style = colordisable;
+        pal60 = false;
+    }
+}
+pal61E.onclick = function() {
+    if (pal61 == false){
+        pal61E.style = "fill:#BAFFCA";
+        pal61 = true;
+    } else {
+        pal61E.style = colordisable;
+        pal61 = false;
+    }
+}
+pal62E.onclick = function() {
+    if (pal62 == false){
+        pal62E.style = "fill:#BAFFDF";
+        pal62 = true;
+    } else {
+        pal62E.style = colordisable;
+        pal62 = false;
+    }
+}
+pal63E.onclick = function() {
+    if (pal63 == false){
+        pal63E.style = "fill:#BAFFEF";
+        pal63 = true;
+    } else {
+        pal63E.style = colordisable;
+        pal63 = false;
+    }
+}
+pal64E.onclick = function() {
+    if (pal64 == false){
+        pal64E.style = "fill:#BAFFFF";
+        pal64 = true;
+    } else {
+        pal64E.style = colordisable;
+        pal64 = false;
+    }
+}
+pal65E.onclick = function() {
+    if (pal65 == false){
+        pal65E.style = "fill:#BAEFFF";
+        pal65 = true;
+    } else {
+        pal65E.style = colordisable;
+        pal65 = false;
+    }
+}
+pal66E.onclick = function() {
+    if (pal66 == false){
+        pal66E.style = "fill:#BADFFF";
+        pal66 = true;
+    } else {
+        pal66E.style = colordisable;
+        pal66 = false;
+    }
+}
+pal67E.onclick = function() {
+    if (pal67 == false){
+        pal67E.style = "fill:#BACAFF";
+        pal67 = true;
+    } else {
+        pal67E.style = colordisable;
+        pal67 = false;
+    }
+}
+pal68E.onclick = function() {
+    if (pal68 == false){
+        pal68E.style = "fill:#000071";
+        pal68 = true;
+    } else {
+        pal68E.style = colordisable;
+        pal68 = false;
+    }
+}
+pal69E.onclick = function() {
+    if (pal69 == false){
+        pal69E.style = "fill:#1C0071";
+        pal69 = true;
+    } else {
+        pal69E.style = colordisable;
+        pal69 = false;
+    }
+}
+pal6AE.onclick = function() {
+    if (pal6A == false){
+        pal6AE.style = "fill:#390071";
+        pal6A = true;
+    } else {
+        pal6AE.style = colordisable;
+        pal6A = false;
+    }
+}
+pal6BE.onclick = function() {
+    if (pal6B == false){
+        pal6BE.style = "fill:#550071";
+        pal6B = true;
+    } else {
+        pal6BE.style = colordisable;
+        pal6B = false;
+    }
+}
+pal6CE.onclick = function() {
+    if (pal6C == false){
+        pal6CE.style = "fill:#710071";
+        pal6C = true;
+    } else {
+        pal6CE.style = colordisable;
+        pal6C = false;
+    }
+}
+pal6DE.onclick = function() {
+    if (pal6D == false){
+        pal6DE.style = "fill:#710055";
+        pal6D = true;
+    } else {
+        pal6DE.style = colordisable;
+        pal6D = false;
+    }
+}
+pal6EE.onclick = function() {
+    if (pal6EX == false){
+        pal6EE.style = "fill:#710039";
+        pal6EX = true;
+    } else {
+        pal6EE.style = colordisable;
+        pal6EX = false;
+    }
+}
+pal6FE.onclick = function() {
+    if (pal6F == false){
+        pal6FE.style = "fill:#71001C";
+        pal6F = true;
+    } else {
+        pal6FE.style = colordisable;
+        pal6F = false;
+    }
+}
+pal70E.onclick = function() {
+    if (pal70 == false){
+        pal70E.style = "fill:#710000"
+        pal70 = true;
+    } else {
+        pal70E.style = colordisable;
+        pal70 = false;
+    }
+}
+pal71E.onclick = function() {
+    if (pal71 == false){
+        pal71E.style = "fill:#711C00";
+        pal71 = true;
+    } else {
+        pal71E.style = colordisable;
+        pal71 = false;
+    }
+}
+pal62E.onclick = function() {
+    if (pal72 == false){
+        pal72E.style = "fill:#713900";
+        pal72 = true;
+    } else {
+        pal72E.style = colordisable;
+        pal72 = false;
+    }
+}
+pal73E.onclick = function() {
+    if (pal73 == false){
+        pal73E.style = "fill:#715500";
+        pal73 = true;
+    } else {
+        pal73E.style = colordisable;
+        pal73 = false;
+    }
+}
+pal74E.onclick = function() {
+    if (pal74 == false){
+        pal74E.style = "fill:#717100";
+        pal74 = true;
+    } else {
+        pal74E.style = colordisable;
+        pal74 = false;
+    }
+}
+pal75E.onclick = function() {
+    if (pal75 == false){
+        pal75E.style = "fill:#557100";
+        pal75 = true;
+    } else {
+        pal75E.style = colordisable;
+        pal75 = false;
+    }
+}
+pal76E.onclick = function() {
+    if (pal76 == false){
+        pal76E.style = "fill:#397100";
+        pal76 = true;
+    } else {
+        pal76E.style = colordisable;
+        pal76 = false;
+    }
+}
+pal77E.onclick = function() {
+    if (pal77 == false){
+        pal77E.style = "fill:#1C7100";
+        pal77 = true;
+    } else {
+        pal77E.style = colordisable;
+        pal77 = false;
+    }
+}
+pal78E.onclick = function() {
+    if (pal78 == false){
+        pal78E.style = "fill:#007100";
+        pal78 = true;
+    } else {
+        pal78E.style = colordisable;
+        pal78 = false;
+    }
+}
+pal79E.onclick = function() {
+    if (pal79 == false){
+        pal79E.style = "fill:#00711C";
+        pal79 = true;
+    } else {
+        pal79E.style = colordisable;
+        pal79 = false;
+    }
+}
+pal7AE.onclick = function() {
+    if (pal7A == false){
+        pal7AE.style = "fill:#007139";
+        pal7A = true;
+    } else {
+        pal7AE.style = colordisable;
+        pal7A = false;
+    }
+}
+pal7BE.onclick = function() {
+    if (pal7B == false){
+        pal7BE.style = "fill:#007155";
+        pal7B = true;
+    } else {
+        pal7BE.style = colordisable;
+        pal7B = false;
+    }
+}
+pal7CE.onclick = function() {
+    if (pal7C == false){
+        pal7CE.style = "fill:#007171";
+        pal7C = true;
+    } else {
+        pal7CE.style = colordisable;
+        pal7C = false;
+    }
+}
+pal7DE.onclick = function() {
+    if (pal7D == false){
+        pal7DE.style = "fill:#005571";
+        pal7D = true;
+    } else {
+        pal7DE.style = colordisable;
+        pal7D = false;
+    }
+}
+pal7EE.onclick = function() {
+    if (pal7EX == false){
+        pal7EE.style = "fill:#003971";
+        pal7EX = true;
+    } else {
+        pal7EE.style = colordisable;
+        pal7EX = false;
+    }
+}
+pal7FE.onclick = function() {
+    if (pal7F == false){
+        pal7FE.style = "fill:#001C71";
+        pal7F = true;
+    } else {
+        pal7FE.style = colordisable;
+        pal7F = false;
     }
 }
 
