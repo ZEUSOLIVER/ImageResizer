@@ -1,13 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("background.webp");
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
-    
+    color: #8080FF;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+
     align-items: center; 
     flex-direction: column;
     gap: 20px;
@@ -26,7 +24,7 @@ img#CRTMonitor{
     background-size: cover;
     position: absolute;
     top: 86vh;
-    left: 70vw;
+    left: 68vw;
     width: 600px;
     height: 350px;
     transform: translate(-33%, -15%);
@@ -35,13 +33,13 @@ img#CRTMonitor{
 canvas#canvas {
     margin-right: 20px;
     margin-left: 20px;
-    border: 2px solid #000; 
+    border: 2px solid #242424; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 canvas#canvas2 {
     position: absolute;
     top: 86vh;
-    left: 70vw;
+    left: 68vw;
     width: 200px;
     height: 128px;
     mix-blend-mode: overlay;
@@ -65,10 +63,10 @@ textarea {
 .range-container label {
     display: inline-block;
     width: 67px;
+    font-family: arial, serif;
 }
 .range-container span {
     margin-left: 10px;
-    font-weight: Arial;
 }
 #fileInput {    
     margin-left: 10vh;
