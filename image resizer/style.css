@@ -13,18 +13,27 @@ body {
 #bgm {
     margin-left: 10vh   ;
 }
+svg#palette {
+    position: absolute;
+    top: 10vh;
+    left: 0vw;
+}
+p#textoriginalimage{
+    transform: translate(+8%, 0%);
+    transform-origin: center;
+}
 p#msdostext{
     position: absolute;
-    top: 86vh;
-    left: 70vw;
+    top: 35vh;
+    left: 77vw;
     transform: translate(+5%, -400%);
     transform-origin: center;
 }
 img#CRTMonitor{
     background-size: cover;
     position: absolute;
-    top: 86vh;
-    left: 68vw;
+    top: 35vh;
+    left: 75vw;
     width: 600px;
     height: 350px;
     transform: translate(-33%, -15%);
@@ -38,8 +47,8 @@ canvas#canvas {
 }
 canvas#canvas2 {
     position: absolute;
-    top: 86vh;
-    left: 68vw;
+    top: 35vh;
+    left: 75vw;
     width: 200px;
     height: 128px;
     mix-blend-mode: overlay;
