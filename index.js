@@ -1,3 +1,5 @@
+widthValue.textContent = widthImage.value;
+heightValue.textContent = heightImage.value;
 pcDosPalette = {"00": [0, 0, 0]};
 recentColors = [];
 maxHistoryColors = 2;
