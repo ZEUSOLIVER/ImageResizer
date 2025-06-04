@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resizer</title>
+    <style>
+        /* --- Variáveis CSS (Fácil de customizar) --- */
+        :root {
+            --cor-primaria: #007bff; /* Azul vibrante */
+            --cor-secundaria: #6c757d; /* Cinza suave */
+            --cor-fundo: #f8f9fa;    /* Cinza muito claro */
+            --cor-texto: #343a40;     /* Cinza escuro */
+            --cor-branco: #ffffff;
+            --sombra-suave: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --borda-radius: 8px;
+            --fonte-principal: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            --espacamento: 1rem; /* 16px por padrão */
+        }
+
+        /* --- Reset Básico e Estilos Globais --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth; /* Rolagem suave */
+        }
+
+        body {
+            font-family: var(--fonte-principal);
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Garante que o footer fique no fim */
+        }
+
+        /* --- Container Principal --- */
+        .container {
+            width: 90%;
+            max-width: 1100px; /* Largura máxima */
+            margin: 0 auto; /* Centraliza */
+            padding: calc(var(--espacamento) * 1.5) 0;
+        }
+
+        /* --- Cabeçalho --- */
+        .cabecalho {
+            background-color: var(--cor-branco);
+            box-shadow: var(--sombra-suave);
+            padding: var(--espacamento) 0;
+            position: sticky; /* Fixa no topo ao rolar */
+            top: 0;
+            z-index: 10;
+        }
+
+        .cabecalho .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--cor-primaria);
+            text-decoration: none;
+        }
+
+        .navegacao ul {
+            list-style: none;
+            display: flex;
+            gap: calc(var(--espacamento) * 1.5); /* Espaço entre links */
+        }
+
+        .navegacao a {
+            text-decoration: none;
+            color: var(--cor-secundaria);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .navegacao a:hover,
+        .navegacao a.ativo {
+            color: var(--cor-primaria);
+        }
+
+        /* --- Conteúdo Principal --- */
+        main {
+            flex-grow: 1; /* Faz o main ocupar o espaço disponível */
+        }
+
+        .secao {
+            margin-bottom: calc(var(--espacamento) * 2);
+            background-color: var(--cor-branco);
+            padding: calc(var(--espacamento) * 2);
+            border-radius: var(--borda-radius);
+            box-shadow: var(--sombra-suave);
+        }
+
+        .secao h2 {
+            color: var(--cor-primaria);
+            margin-bottom: var(--espacamento);
+            border-bottom: 2px solid var(--cor-fundo);
+            padding-bottom: calc(var(--espacamento) / 2);
+        }
+
+        p {
+            margin-bottom: var(--espacamento);
+        }
+
+        /* --- Botão --- */
+        .botao {
+            display: inline-block;
+            background-color: var(--cor-primaria);
+            color: var(--cor-branco);
+            padding: calc(var(--espacamento) * 0.75) calc(var(--espacamento) * 1.5);
+            border: none;
+            border-radius: var(--borda-radius);
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .botao:hover {
+            background-color: #0056b3; /* Tom mais escuro do azul */
+            transform: translateY(-2px); /* Efeito sutil de elevação */
+        }
+
+        /* --- Rodapé --- */
+        .rodape {
+            background-color: var(--cor-texto);
+            color: var(--cor-fundo);
+            text-align: center;
+            padding: calc(var(--espacamento) * 1.5) 0;
+            margin-top: auto; /* Empurra para o fim da página */
+        }
+
+        /* --- Responsividade --- */
+        @media (max-width: 768px) {
+            .cabecalho .container {
+                flex-direction: column;
+                gap: var(--espacamento);
+            }
+
+            .navegacao ul {
+                flex-direction: column;
+                align-items: center;
+                gap: calc(var(--espacamento) / 2);
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            .secao {
+                padding: var(--espacamento);
+            }
+
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.4rem; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="container">
+            <a href="#" class="logo">Image Resizer</a>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="#" class="ativo">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="secao" id="inicio">
+            <h2>Bem-vindo à Página Moderna!</h2>
+            <p>Este é um exemplo de layout limpo e leve usando HTML semântico e CSS moderno. O foco está na legibilidade, no espaçamento e na performance.</p>
+            <p>Utilizamos variáveis CSS para facilitar a personalização das cores e fontes.</p>
+            <a href="#sobre" class="botao">Saiba Mais</a>
+        </section>
+
+        <section class="secao" id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+
+        <section class="secao" id="servicos">
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos soluções incríveis para seus problemas. Nossos serviços incluem:</p>
+            <ul>
+                <li>Desenvolvimento Web Moderno</li>
+                <li>Design Responsivo</li>
+                <li>Otimização de Performance</li>
+                <li>Consultoria Especializada</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2023 ModernoLeve. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
