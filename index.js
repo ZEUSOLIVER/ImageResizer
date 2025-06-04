@@ -1,5 +1,3 @@
-widthValue.textContent = widthImage.value;
-heightValue.textContent = heightImage.value;
 pcDosPalette = {"00": [0, 0, 0]};
 recentColors = [];
 maxHistoryColors = 2;
@@ -526,6 +524,9 @@ inputElement.addEventListener('change', (e) => {
     imgElement.src = URL.createObjectURL(e.target.files[0]);
     updatePalette()
 }, false);
+
+widthValue.textContent = widthImage.value;
+heightValue.textContent = heightImage.value;
 
 widthImage.addEventListener('input', () => {
     widthValue.textContent = widthImage.value;
