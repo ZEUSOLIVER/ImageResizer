@@ -3136,14 +3136,14 @@ function findClosestColor(pixel, palette) {
 }
 
 function image_to_bin(image) {
-    codeout = "";
+    codeout = "db ";
     //codeout += `${widthImage.value}${heightImage.value}`
     for(let y = 0; y < image.rows; y++) {
         for(let x = 0; x < image.cols; x++) {
             pixel = image.ucharPtr(y, x);
             closestColorIndex = findClosestColor(pixel, pcDosPalette);
             recentColors = [];
-            codeout += `${closestColorIndex}`
+            codeout += ` $${closestColorIndex}`
         }
     }
     return codeout
