@@ -808,6 +808,13 @@ function updatePalette() {
     };
 }
 
+document.getElementById("ButtonStrange").onclick = function() {
+    if strangebutton == false{
+        strangebutton = true;
+    } else
+        strangebutton = false;
+}
+
 pal0E.onclick = function() {
     if (pal0 == false){
         pal0E.style = "fill:#000000"
@@ -3139,14 +3146,26 @@ function findClosestColor(pixel, palette) {
 }
 
 function image_to_bin(image) {
-    codeout = "db";
+    codeout = "";
     //codeout += `${widthImage.value}${heightImage.value}`
-    for(let y = 0; y < image.rows; y++) {
-        for(let x = 0; x < image.cols; x++) {
-            pixel = image.ucharPtr(y, x);
-            closestColorIndex = findClosestColor(pixel, pcDosPalette);
-            recentColors = [];
-            codeout += `, $${closestColorIndex}`
+    if strangebutton == true {
+        codeout = "db";
+        for(let y = 0; y < image.rows; y++) {
+            for(let x = 0; x < image.cols; x++) {
+                pixel = image.ucharPtr(y, x);
+                closestColorIndex = findClosestColor(pixel, pcDosPalette);
+                recentColors = [];
+                codeout += `, $${closestColorIndex}`
+            }
+        }
+    } else {
+        for(let y = 0; y < image.rows; y++) {
+            for(let x = 0; x < image.cols; x++) {
+                pixel = image.ucharPtr(y, x);
+                closestColorIndex = findClosestColor(pixel, pcDosPalette);
+                recentColors = [];
+                codeout += `${closestColorIndex}`
+            }
         }
     }
     return codeout
