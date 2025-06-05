@@ -1,3 +1,4 @@
+strangebutton = false
 pcDosPalette = {"00": [0, 0, 0]};
 recentColors = [];
 maxHistoryColors = 2;
