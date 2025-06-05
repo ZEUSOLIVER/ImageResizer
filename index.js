@@ -810,7 +810,7 @@ function updatePalette() {
 }
 
 document.getElementById("ButtonStrange").onclick = function() {
-    if (strangebutton) == false{
+    if (strangebutton == false){
         strangebutton = true;
     } else {
         strangebutton = false;
