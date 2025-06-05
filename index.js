@@ -3150,7 +3150,7 @@ function findClosestColor(pixel, palette) {
 function image_to_bin(image) {
     codeout = "";
     //codeout += `${widthImage.value}${heightImage.value}`
-    if strangebutton == true {
+    if (strangebutton == true) {
         codeout = "db";
         for(let y = 0; y < image.rows; y++) {
             for(let x = 0; x < image.cols; x++) {
