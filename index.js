@@ -812,8 +812,9 @@ function updatePalette() {
 document.getElementById("ButtonStrange").onclick = function() {
     if strangebutton == false{
         strangebutton = true;
-    } else
+    } else {
         strangebutton = false;
+    }
 }
 
 pal0E.onclick = function() {
